@@ -1,9 +1,10 @@
-name: Jest Tests
+name: Merge Request CI/CD
 
 on:
-  push:
-    branches:
-      - main # Adjust branch name if needed
+  pull_request:
+    types:
+      - opened
+      - synchronize
 
 jobs:
   Tests:
