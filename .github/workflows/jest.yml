@@ -6,7 +6,7 @@ on:
       - main # Adjust branch name if needed
 
 jobs:
-  Unit Tests:
+  Tests:
     runs-on: ubuntu-latest
 
     steps:
